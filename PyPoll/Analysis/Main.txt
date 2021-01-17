@@ -1,3 +1,10 @@
+PyPoll Analsys.
+
+There were  total of 1048575 votes.  The four candidates were Khan, Correy, Li, and O'Tooley.  
+Khan won the election and recieved 63% of the votes with 661583 votes.  Correy recieved 19% of the votes with 209046 votes.
+Next came Li, with 13% of the votes and a total of 146360.  With the least votes was O'Tooley.  
+He had 31586 total votes totaling only 3% of the total number.  
+
 import os
 import csv
 
@@ -55,6 +62,3 @@ print("Li", total_Li, round(vp_Li,2))
 print("O'Tooley", total_Otooley, round(vp_Otooley,2))
 print("Winner:Khan")
 print("-------------------------")
-
-
-    
